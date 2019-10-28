@@ -1,0 +1,403 @@
+let anime=[{
+	"id": 1,
+	"name": "数码宝贝",
+	"imgsrc": "img/dm/japan/shumabaobei/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 2,
+	"name": "铁甲小宝",
+	"imgsrc": "img/dm/japan/tiejiaxiaobao/logo.jpg",
+	"width": "450",
+	"height": "369"
+}, {
+	"id": 3,
+	"name": "神奇宝贝",
+	"imgsrc": "img/dm/japan/shenqibaobei/logo.jpg",
+	"width": "450",
+	"height": "335"
+}, {
+	"id": 4,
+	"name": "四驱兄弟",
+	"imgsrc": "img/dm/japan/siquxiongdi/logo.jpg",
+	"width": "450",
+	"height": "647"
+}, {
+	"id": 5,
+	"name": "光能使者",
+	"imgsrc": "img/dm/japan/guangnengshizhe/logo.jpg",
+	"width": "450",
+	"height": "450"
+}, {
+	"id": 6,
+	"name": "新世纪福音战士",
+	"imgsrc": "img/dm/japan/fuyinzhanshi/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 7,
+	"name": "中华小当家",
+	"imgsrc": "img/dm/japan/zhonghuaxiaodangjia/logo.jpg",
+	"width": "450",
+	"height": "368"
+}, {
+	"id": 8,
+	"name": "星际恐龙",
+	"imgsrc": "img/dm/japan/xingjikonglong/logo.jpg",
+	"width": "450",
+	"height": "308"
+}, {
+	"id": 9,
+	"name": "火星鼠骑士",
+	"imgsrc": "img/dm/japan/huoxingshu/logo.jpg",
+	"width": "450",
+	"height": "347"
+}, {
+	"id": 10,
+	"name": "弹珠警察",
+	"imgsrc": "img/dm/japan/danzhujingcha/logo.jpg",
+	"width": "450",
+	"height": "388"
+}, {
+	"id": 11,
+	"name": "百变小樱",
+	"imgsrc": "img/dm/japan/baibianxiaoying/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 12,
+	"name": "圣少女",
+	"imgsrc": "img/dm/japan/shengshaonv/logo.jpg",
+	"width": "450",
+	"height": "638"
+}, {
+	"id": 13,
+	"name": "飞天小女警",
+	"imgsrc": "img/dm/america/feitianxiaonvjing/logo.jpg",
+	"width": "450",
+	"height": "296"
+}, {
+	"id": 14,
+	"name": "猫眼三姐妹",
+	"imgsrc": "img/dm/japan/maoyanthree/logo.jpg",
+	"width": "450",
+	"height": "315"
+}, {
+	"id": 15,
+	"name": "七龙珠",
+	"imgsrc": "img/dm/japan/qilongzhu/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 16,
+	"name": "圣斗士",
+	"imgsrc": "img/dm/japan/shengdoushi/logo.jpg",
+	"width": "450",
+	"height": "263"
+}, {
+	"id": 17,
+	"name": "美少女战士",
+	"imgsrc": "img/dm/japan/meishaonv/logo.jpg",
+	"width": "450",
+	"height": "300"
+}, {
+	"id": 18,
+	"name": "忍者乱太郎",
+	"imgsrc": "img/dm/japan/renzheluantailang/logo.jpg",
+	"width": "450",
+	"height": "438"
+}, {
+	"id": 19,
+	"name": "陀螺战士",
+	"imgsrc": "img/dm/japan/tuoluo/logo.jpg",
+	"width": "450",
+	"height": "288"
+}, {
+	"id": 20,
+	"name": "足球小将",
+	"imgsrc": "img/dm/japan/zuqiuxiaojiang/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 21,
+	"name": "灌篮高手",
+	"imgsrc": "img/dm/japan/guanlangaoshou/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 22,
+	"name": "晴天小猪",
+	"imgsrc": "img/dm/japan/qingtianxiaozhu/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 23,
+	"name": "樱桃小丸子",
+	"imgsrc": "img/dm/japan/yingtao/logo.jpg",
+	"width": "450",
+	"height": "355"
+}, {
+	"id": 24,
+	"name": "蜡笔小新",
+	"imgsrc": "img/dm/japan/labixiaoxin/logo.jpg",
+	"width": "450",
+	"height": "308"
+}, {
+	"id": 25,
+	"name": "网球王子",
+	"imgsrc": "img/dm/japan/wangqiuwangzi/logo.jpg",
+	"width": "450",
+	"height": "497"
+}, {
+	"id": 26,
+	"name": "全职猎人",
+	"imgsrc": "img/dm/japan/quanzhilieren/logo.jpg",
+	"width": "450",
+	"height": "337"
+}, {
+	"id": 27,
+	"name": "铁胆火车侠",
+	"imgsrc": "img/dm/japan/huochexia/logo.jpg",
+	"width": "450",
+	"height": "281"
+}, {
+	"id": 28,
+	"name": "迪迦奥特曼",
+	"imgsrc": "img/dm/japan/dijiaaoteman/logo.jpg",
+	"width": "450",
+	"height": "262"
+}, {
+	"id": 29,
+	"name": "名侦探柯南",
+	"imgsrc": "img/dm/japan/kenan/logo.jpg",
+	"width": "450",
+	"height": "286"
+}, {
+	"id": 30,
+	"name": "海贼王",
+	"imgsrc": "img/dm/japan/one-piece/logo.jpg",
+	"width": "450",
+	"height": "450"
+}, {
+	"id": 31,
+	"name": "海绵宝宝",
+	"imgsrc": "img/dm/america/haimaibaobao/logo.jpg",
+	"width": "450",
+	"height": "360"
+}, {
+	"id": 32,
+	"name": "火影忍者",
+	"imgsrc": "img/dm/japan/huoying/logo.jpg",
+	"width": "450",
+	"height": "276"
+}, {
+	"id": 33,
+	"name": "犬夜叉",
+	"imgsrc": "img/dm/japan/quanyecha/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 34,
+	"name": "乱马",
+	"imgsrc": "img/dm/japan/luanma/logo.jpg",
+	"width": "450",
+	"height": "337"
+}, {
+	"id": 35,
+	"name": "游戏王",
+	"imgsrc": "img/dm/japan/youxiwang/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 36,
+	"name": "死神",
+	"imgsrc": "img/dm/japan/sishen/logo.jpg",
+	"width": "450",
+	"height": "306"
+}, {
+	"id": 37,
+	"name": "死亡笔记",
+	"imgsrc": "img/dm/japan/siwangbiji/logo.jpg",
+	"width": "450",
+	"height": "337"
+}, {
+	"id": 38,
+	"name": "天降之物",
+	"imgsrc": "img/dm/japan/tianjiangzhiwu/logo.jpg",
+	"width": "450",
+	"height": "253"
+}, {
+	"id": 39,
+	"name": "奥林匹斯星传",
+	"imgsrc": "img/dm/korea/aolingpisi/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 40,
+	"name": "乌贼娘",
+	"imgsrc": "img/dm/japan/wuzeiniang/logo.jpg",
+	"width": "450",
+	"height": "281"
+}, {
+	"id": 41,
+	"name": "兔八哥",
+	"imgsrc": "img/dm/america/tubage/logo.jpg",
+	"width": "450",
+	"height": "437"
+}, {
+	"id": 42,
+	"name": "猫和老鼠",
+	"imgsrc": "img/dm/america/maohelaoshu/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 43,
+	"name": "Q版猫和老鼠",
+	"imgsrc": "img/dm/america/qmaohelaoshu/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 44,
+	"name": "丁丁历险记",
+	"imgsrc": "img/dm/france/dingding/logo.jpg",
+	"width": "450",
+	"height": "319"
+}, {
+	"id": 45,
+	"name": "彭彭丁满历险记",
+	"imgsrc": "img/dm/america/pengpengdingman/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 46,
+	"name": "米老鼠群星会",
+	"imgsrc": "img/dm/america/milaoshu/logo.jpg",
+	"width": "450",
+	"height": "223"
+}, {
+	"id": 47,
+	"name": "阿拉丁神灯",
+	"imgsrc": "img/dm/america/alading/logo.jpg",
+	"width": "450",
+	"height": "282"
+}, {
+	"id": 48,
+	"name": "天线宝宝",
+	"imgsrc": "img/dm/kingdom/tianxianbaobao/logo.jpg",
+	"width": "450",
+	"height": "306"
+}, {
+	"id": 49,
+	"name": "蓝精灵",
+	"imgsrc": "img/dm/america/lanjingling/logo.jpg",
+	"width": "450",
+	"height": "309"
+}, {
+	"id": 50,
+	"name": "白雪公主",
+	"imgsrc": "img/dm/america/baixuegongzu/logo.jpg",
+	"width": "450",
+	"height": "308"
+}, {
+	"id": 51,
+	"name": "超级酷乐猫",
+	"imgsrc": "img/dm/japan/kulemao/logo.jpg",
+	"width": "450",
+	"height": "394"
+}, {
+	"id": 52,
+	"name": "哆啦A梦",
+	"imgsrc": "img/dm/japan/duolaameng/logo.jpg",
+	"width": "450",
+	"height": "675"
+}, {
+	"id": 53,
+	"name": "鸭子侦探",
+	"imgsrc": "img/dm/canada/yazi/logo.jpg",
+	"width": "450",
+	"height": "335"
+}, {
+	"id": 54,
+	"name": "马丁的早晨",
+	"imgsrc": "img/dm/france/mading/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 55,
+	"name": "鼹鼠的故事",
+	"imgsrc": "img/dm/czekh/yanshu/logo.jpg",
+	"width": "450",
+	"height": "418"
+}, {
+	"id": 56,
+	"name": "大力水手",
+	"imgsrc": "img/dm/america/dalishuishou/logo.jpg",
+	"width": "450",
+	"height": "418"
+}, {
+	"id": 57,
+	"name": "聪明的一休",
+	"imgsrc": "img/dm/japan/yixiu/logo.jpg",
+	"width": "450",
+	"height": "338"
+}, {
+	"id": 58,
+	"name": "啄木鸟伍迪",
+	"imgsrc": "img/dm/america/zhuomuniao/logo.jpg",
+	"width": "450",
+	"height": "341"
+}, {
+	"id": 59,
+	"name": "傻大猫和崔弟",
+	"imgsrc": "img/dm/america/shadamao/logo.jpg",
+	"width": "450",
+	"height": "337"
+}, {
+	"id": 60,
+	"name": "铁臂阿童木",
+	"imgsrc": "img/dm/japan/atongmu/logo.jpg",
+	"width": "450",
+	"height": "334"
+}, {
+	"id": 61,
+	"name": "狮子王",
+	"imgsrc": "img/dm/america/shiziwang/logo.jpg",
+	"width": "450",
+	"height": "253"
+}, {
+	"id": 62,
+	"name": "小魔女蒙娜",
+	"imgsrc": "img/dm/america/mengna/logo.jpg",
+	"width": "450",
+	"height": "370"
+}, {
+	"id": 63,
+	"name": "幸运的路克",
+	"imgsrc": "img/dm/france/luke/logo.jpg",
+	"width": "450",
+	"height": "289"
+}, {
+	"id": 64,
+	"name": "麻辣女孩",
+	"imgsrc": "img/dm/america/malashaonv/logo.jpg",
+	"width": "450",
+	"height": "259"
+}, {
+	"id": 65,
+	"name": "星际宝贝",
+	"imgsrc": "img/dm/america/xingjibaobei/logo.jpg",
+	"width": "450",
+	"height": "325"
+}, {
+	"id": 66,
+	"name": "达菲鸭与小猪",
+	"imgsrc": "img/dm/america/dafeiya/logo.jpg",
+	"width": "450",
+	"height": "324"
+}, {
+	"id": 67,
+	"name": "头文字D",
+	"imgsrc": "img/dm/japan/d/logo.jpg",
+	"width": "450",
+	"height": "255"
+}]
